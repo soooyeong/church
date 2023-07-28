@@ -69,6 +69,8 @@ header .tab ul li:last-child a {
     border-right: 1px solid #D0D0D0;
 }
 header .header_wrap { 
+    position: relative;
+    z-index: 5;
     width: 100%;
     max-width: 1480px;
     margin: 0 auto;
@@ -133,6 +135,7 @@ header .header_wrap nav ul li .sub-wrap ul {
     width: 200px;
     background: #fff;
     border-radius: 0 0 1rem 1rem;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
 }
 header .header_wrap nav ul li .sub-wrap ul li {
     height: auto;
