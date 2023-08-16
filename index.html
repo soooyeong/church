@@ -12,14 +12,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!-- slick -->
-    <link rel="stylesheet" type="text/css" href="js/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="js/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/slick.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-
-    <script type="text/javascript" src="js/main.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="js/main.js?v=2"></script>
+    <link rel="stylesheet" href="css/style.css?v=3">
     
 </head>
 <body>
@@ -38,11 +35,11 @@
             </div>
             <!-- menu -->
             <div class="header_wrap d-flex justify-content-between">
-                <a class="logo" href="index.html"><img src="img/logo.svg"></a>
+                <a class="logo" href="index.html"><img src="img/logo.png"></a>
                 <nav>
                     <ul class="d-flex">
                         <li>
-                            <a class="btn_menu" href="javascript:void(0)">공지사항</a>
+                            <a class="btn_menu" >공지사항</a>
                             <div class="sub-wrap">
                                 <ul class="sub">
                                     <li><a href="#">공지사항</a></li>
@@ -60,10 +57,10 @@
                             </div>
                         </li>
                         <li>
-                            <a class="btn_menu" href="javascript:void(0)">MJ</a>
+                            <a class="btn_menu" >MJ</a>
                             <div class="sub-wrap">
                                 <ul class="sub">
-                                    <li><a href="#">목사님께 질문</a></li>
+                                    <li><a href="#">목사님께 질문</a> </li>
                                     <li><a href="#">추천 주일셰어링</a></li>
                                     <li><a href="#">추천 경시셰어링</a></li>
                                     <li><a href="#">목사님께 쪽지</a></li>
@@ -74,7 +71,7 @@
                             </div>
                         </li>
                         <li>
-                            <a class="btn_menu" href="javascript:void(0)">꼬투리감사</a>
+                            <a class="btn_menu" >꼬투리감사</a>
                             <div class="sub-wrap">
                                 <ul class="sub">
                                     <li><a href="#">꼬투리감사</a></li>
@@ -83,7 +80,7 @@
                             </div>
                         </li>
                         <li>
-                            <a class="btn_menu" href="javascript:void(0)">나눔</a>
+                            <a class="btn_menu" >나눔</a>
                             <div class="sub-wrap">
                                 <ul class="sub">
                                     <li><a href="#">메시지</a></li>
@@ -93,7 +90,7 @@
                             </div>
                         </li>
                         <li>
-                            <a class="btn_menu" href="javascript:void(0)">OT</a>
+                            <a class="btn_menu" >OT</a>
                             <div class="sub-wrap">
                                 <ul class="sub">
                                     <li><a href="#">OT질문</a></li>
@@ -102,7 +99,7 @@
                             </div>
                         </li>
                         <li>
-                            <a class="btn_menu" href="javascript:void(0)">자유게시판</a>
+                            <a class="btn_menu" >자유게시판</a>
                             <div class="sub-wrap">
                                 <ul class="sub">
                                     <li><a href="#">사진</a></li>
@@ -125,19 +122,10 @@
                 <div class="slider">
                     <div> <img src="img/banner01.jpg"> </div>
                     <div> <img src="img/banner02.jpg"> </div>
-                
                 </div>
             </div>
         </div>
-        <script>
-            $(function(){
-
-                $('.slider').slick({
-                    dots: true
-                });
-
-            });
-        </script>        
+  
         <!-- content -->
         <div class="content">
             <!-- section01 -->
@@ -181,8 +169,8 @@
                                 <a class="all_view" href="/NoticeClub/NoticeList.php?cate=NTC">전체보기</a>
                             </div>
                             <ul class="list">
-                                <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내 홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
-                                <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
+                                <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내 홈페이지 메뉴 일부 변경 안내 <i class="new">N</i> </span> <span class="date">23-01-01</span></a></li>
+                                <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내 <i class="new">N</i></span> <span class="date">23-01-01</span></a></li>
                                 <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
                                 <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
                                 <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
@@ -194,7 +182,7 @@
                                 <a class="all_view" href="/CommClub/BoardList.php?cate=JOB">전체보기</a>
                             </div>
                             <ul class="list">
-                                <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내 홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
+                                <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내 홈페이지 메뉴 일부 변경 안내 <i class="new">N</i></span> <span class="date">23-01-01</span></a></li>
                                 <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
                                 <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
                                 <li><a href="#"><span>홈페이지 메뉴 일부 변경 안내</span> <span class="date">23-01-01</span></a></li>
@@ -328,7 +316,7 @@
     <!-- footer -->
     <footer>
         <div class="inner">
-            <a class="logo" href="index.html"><img src="img/logo02.svg"></a>
+            <a class="logo" href="index.html"><img src="img/logo2.png"></a>
             <div class="info01 d-flex justify-content-between">
                 <p>대한예수교장로회<br>
                     빛과진리교회<br>
